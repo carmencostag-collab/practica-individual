@@ -1,13 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Mi primera página, Chispas</title>
+    <link rel="stylesheet" href="estilos-astroclub.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
 </head>
+
 <body>
-  <h1>Hoy, me llamo Carmen</h1>
-  <h2>Control de versiones</h2>
-  <p>Esta es mi primera página subida a GitHub</p>
-  <p>Estoy aprendiendo a trabajar con GitHub.</p>
+    <header>
+        <div class="header-w-logo" style="background-color: rgb(12, 36, 46)" ;>
+            <p id="logo">AstroClub Somiedo</p>
+            <p id="subt">Asociación de atronomía · Reserva Starlight de Somiedo, Asturias</p>
+        </div>
+        <nav style="background-color: rgb(21, 53, 71)" ;>
+            <div>
+                <a><p style="color: rgb(252, 188, 70);">Inicio</p></a>
+                <a href="quienes-somos.html">Quienes somos</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <article class="articulo-inicio">
+            <div class="inicio-pagina">
+                <div class="foto-con-pie">
+                    <img src="imgs/cielo-somiedo.png" alt="fotografía del cielo en Somiedo" width="600px">
+                    <p>Cielo nocturno sobre el Valle del Lago, Somiedo</p>
+                </div>
+                <div class="textos-inicio">
+                    <p>AstroClub Somiedo</p>
+                    <p>Un cielo protegido para descubrir las estrellas</p>
+                    <p>Equipo de comunicación</p>
+                </div>
+            </div>
+            <div class="texto-articulo">
+                <p><b>AstroClub Somiedo</b> es una asociación sin ánimo de lucro nacida en el Valle del Lago, en pleno
+                    corazón de la Reserva Starlight. Apostamos por la divulgación responsable y por acercar el cielo
+                    nocturno a cualquier persona.</p>
+                <p>Nuestras instalaciones reciben cada semana a decenas de voluntarios y familias interesadas en la
+                    astronomía.</p>
+            </div>
+            <button type="button">Quiero participar</button>
+        </article>
+        <section class="club-en-cifras">
+            <h2>El club en cifras</h2>
+                <div class="cifras-club">
+                    <div class="numero-texto">
+                        <p>2012</p>
+                        <p>Fundación</p>
+                    </div>
+                    <div class="numero-texto">
+                        <p>300+</p>
+                        <p>Socios activos</p>
+                    </div>
+                    <div class="numero-texto">
+                        <p>48</p>
+                        <p>Observaciones</p>
+                    </div>
+                    <div class="numero-texto">
+                        <p>6</p>
+                        <p>Telescopios</p>
+                    </div>
+                </div>
+        </section>
+        <section>
+            <h2 id="video-icon">Vídeo</h2>
+            <div class="seccion-video">
+                <iframe width="560" height="215" src="https://www.youtube.com/embed/t_H2uQ7BBIA?si=vi_6w5lww35uMmFy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="texto-video">
+                    <p><b>Vídeo de bienvenida</b></p>
+                    <p>Un breve recorrido por nuestras instalaciones de la mano del equipo.</p>
+                    <p>bienvenida-club.mp4 · 1:45</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <br>
 </body>
+
 </html>
